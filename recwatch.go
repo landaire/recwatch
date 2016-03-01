@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/fsnotify/fsnotify"
+	"gopkg.in/fsnotify.v1"
 )
 
 type Event fsnotify.Event
